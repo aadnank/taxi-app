@@ -34,3 +34,14 @@ Technologies being used:
 - Frontend - HTML, CSS, React
 - Backend - Python
 - (For now focus on it working locally) - Server for host - AWS?
+
+Endpoints for our API:
+1. /signUp 
+    - post requests (adding or creating data in the database)
+2. /login
+    - get request (get data from database, and check if exists or correct information)
+3. /bookATaxi
+    - post request (take information for whoever is booking and calculate nearest driver, and if avaiable create an entry in booking table)
+4. /bookings/{bookingID}
+    - get request ()
+    - delete ()
